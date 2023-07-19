@@ -449,6 +449,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -1073,6 +1074,13 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+.rounded-circle-boolettype {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #149ddd;
 }
 
 /*--------------------------------------------------------------
