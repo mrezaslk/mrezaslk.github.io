@@ -89,7 +89,13 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  clip-path: circle();
+  image-rendering: optimizeQuality;
+  object-fit: cover;
+  filter: brightness(95%) contrast(115%);
+
+  /* height: 120px; */
+  /* border: 8px solid #2c2f3f; */
 }
 
 #header .profile h1 {
@@ -1081,6 +1087,7 @@ section {
   height: 10px;
   border-radius: 100%;
   background-color: #149ddd;
+  /* clip-path: circle(); */
 }
 
 /*--------------------------------------------------------------
