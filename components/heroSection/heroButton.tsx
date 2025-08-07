@@ -55,11 +55,11 @@ export function HeroButton({}) {
         </div>
         <div className="round flex items-center  justify-end md:justify-center ">
           <Image
-            className="rotateAnimation inline-block aspect-square border-2 border-white md:border-0 md:p-1"
+            className="rotateAnimation inline-block aspect-square border-2 border-white md:border-0 md:p-1 "
             ref={rotating}
             width={120}
             height={120}
-            src="/img/logo.png"
+            src="/svg_logo/reza-logo.svg"
             alt=""
           />
         </div>

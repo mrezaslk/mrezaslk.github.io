@@ -8,9 +8,9 @@ export function Main() {
   return (
     <>
       <HeroSection />
-      <AboutSection />
+      {/* <AboutSection /> */}
       {/* <WorkSection /> */}
-      <ContactSection />
+      {/* <ContactSection /> */}
     </>
   );
 }
