@@ -1,0 +1,39 @@
+.nav__container {
+  position: absolute;
+  z-index: 5000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* overflow: hidden; */
+  /* display: none; */
+}
+
+.nav__container .nav__bar {
+  width: 100%;
+}
+
+.nav__container .nav__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__container .nav__bar > div {
+  width: 100%;
+  padding-top: 40px;
+  font-size: 1.8rem;
+}
+
+.nav__container .nav__bar > div {
+  display: flex;
+  gap: 5.2rem;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .nav__container .nav__bar > div {
+    padding-top: 25px;
+  }
+}
