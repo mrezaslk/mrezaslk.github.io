@@ -28,12 +28,8 @@ export function HeroSection({ onLoaded }: HeroSectionProps) {
     >
       <Bulge type="Light" />
       <Header color="Light" />
-      {/* <div className="h-full w-full px-12"> */}
       <HeroWrapper />
-      {/* </div> */}
-      {/* <div className="relative -z-20 h-full w-full"> */}
-        <ThreeModel sectionRef={sectionRef} onLoaded={onLoaded} />
-      {/* </div> */}
+      <ThreeModel sectionRef={sectionRef} onLoaded={onLoaded} />
     </section>
   );
 }
