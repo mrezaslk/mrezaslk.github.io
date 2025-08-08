@@ -5,8 +5,10 @@ import gsap from "gsap";
 
 export function ThreeModel({
   sectionRef,
+  onLoaded,
 }: {
   sectionRef: React.RefObject<HTMLDivElement>;
+  onLoaded?: () => void;
 }) {
   const mountRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<THREE.Scene | null>(null);
@@ -106,6 +108,9 @@ export function ThreeModel({
             mixer.clipAction(clip).play();
           });
         }
+
+        // Mark three model as loaded
+        onLoaded?.();
       },
       (progress) => {
         console.log(
@@ -116,6 +121,8 @@ export function ThreeModel({
       },
       (error) => {
         console.error("Error loading model:", error);
+        // Still mark as loaded even if there's an error
+        onLoaded?.();
       },
     );
 
@@ -192,7 +199,7 @@ export function ThreeModel({
         animationRef.current.stopAllAction();
       }
     };
-  }, [sectionRef]);
+  }, [sectionRef, onLoaded]);
 
   return (
     <div className="pointer-events-none absolute -top-28 left-[34.4%] z-[9999]">
