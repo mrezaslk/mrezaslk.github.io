@@ -44,7 +44,7 @@ export function HeroMarquee({}) {
       return tl;
     }
 
-    roll(".rollingText", { duration: 15 });
+    roll(".rollingText", { duration: 20 });
 
     return () => {
       gsap.killTweensOf(".rollingText");
@@ -53,7 +53,8 @@ export function HeroMarquee({}) {
   return (
     <div className="wrapperRollingText anime pointer-events-none -z-10  select-none  rounded-3xl tracking-[-0.1em] ">
       <div className="rollingText  md:!text-[200px]">
-        - Vipul - Kumar - Vipul - Kumar&nbsp;
+        - React - TypeScript - Next.js - Tailwind - Three.js - GraphQL 
+        &nbsp;
       </div>
     </div>
   );

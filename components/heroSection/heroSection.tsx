@@ -10,12 +10,16 @@ export function HeroSection({}) {
   return (
     <section
       ref={sectionRef}
-      className="section section__1 darkGradient first relative z-0 px-paddingX text-colorLight"
+      className="section section__1 darkGradient first relative z-0 px-paddingX text-colorLight "
     >
       <Bulge type="Light" />
       <Header color="Light" />
+      {/* <div className="h-full w-full px-12"> */}
       <HeroWrapper />
-      <ThreeModel sectionRef={sectionRef} />
+      {/* </div> */}
+      {/* <div className="relative -z-20 h-full w-full"> */}
+        <ThreeModel sectionRef={sectionRef} />
+      {/* </div> */}
     </section>
   );
 }

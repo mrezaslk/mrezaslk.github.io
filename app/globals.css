@@ -98,6 +98,7 @@
     font-family: "DM Sans", sans-serif;
   }
   .darkGradient {
+    /* background-color: #ffe600; */
     background: linear-gradient(90deg, #000000 0%, #222121 100%);
   }
 
