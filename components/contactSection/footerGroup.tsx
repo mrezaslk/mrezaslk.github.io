@@ -30,7 +30,7 @@ export function FooterGroup({
                 target="_blank"
                 hoverUnderline
               >
-                <p className="scrambleText inline-block text-left">
+                <p className="scrambleText inline-block text-left whitespace-nowrap">
                   {link.text}
                 </p>
               </Magentic>
