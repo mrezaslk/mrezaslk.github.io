@@ -6,7 +6,7 @@ import Script from "next/script";
 const GoogleAnalytics = () => {
   return (
     <>
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-32FBS7Y85P`}
       />
@@ -20,7 +20,7 @@ const GoogleAnalytics = () => {
 
               gtag('config', 'G-32FBS7Y85P');
           `}
-      </Script>
+      </Script> */}
     </>
   );
 };

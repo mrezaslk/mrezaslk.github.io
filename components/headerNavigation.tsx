@@ -83,12 +83,12 @@ export function HeaderNavigation() {
       href: links.work,
     },
     {
-      name: "Contact",
-      href: links.email,
+      name: "Github",
+      href: links.github,
     },
     {
-      name: "Twitter/X",
-      href: links.twitter,
+      name: "Linkedin",
+      href: links.linkedin,
     },
   ];
   return (
@@ -115,6 +115,7 @@ export function HeaderNavigation() {
                     chars: "-xx",
                   }}
                   href={data.href}
+                  target={data.name === "Linkedin" || data.name === "Github" ? "_blank" : "_self"}
                 >
                   <span className="scrambleText">{data.name}</span>
                 </Magentic>
