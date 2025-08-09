@@ -10,11 +10,11 @@ import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 gsap.registerPlugin(CustomEase);
 
-const dM_Sans = DM_Sans({ subsets: ["latin-ext"] });
-const satoshi = localFont({
-  src: "../font/satoshi/Satoshi-Variable.woff2",
-  style: "normal",
-});
+// const dM_Sans = DM_Sans({ subsets: ["latin-ext"] });
+// const satoshi = localFont({
+//   src: "../font/satoshi/Satoshi-Variable.woff2",
+//   style: "normal",
+// });
 
 const helvetica = localFont({
   src: "../font/helvetica/HelveticaNowDisplay-Medium.woff2",
@@ -22,7 +22,7 @@ const helvetica = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vipul Kumar • Designer & Developer",
+  title: "MuhammadSalek •  Web & Application Developer",
 };
 
 export default function RootLayout({

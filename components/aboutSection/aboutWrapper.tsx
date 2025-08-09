@@ -13,13 +13,15 @@ import { isDesktop } from "@/lib/utils";
 export function AboutWrapper({}) {
   const [text, setText] = useState({
     main: "Featured Work",
-    para: `Building high-end, pixel-perfect websites for agencies and individuals while creating high quality rebuilds in my free time.`,
+    para: `Architecting high-quality, production-ready web solutions for scaling businesses
+while experimenting with cutting-edge frontend techniques on the side.`,
   });
   useEffect(() => {
     if (!isDesktop()) {
       setText({
         main: "Recent Work",
-        para: `Building high-end websites with agencies and individuals while creating rebuilds in my free time.`,
+        para: `Architecting high-quality, production-ready web solutions for scaling businesses
+while experimenting with cutting-edge frontend techniques on the side.`,
       });
     }
   }, []);
@@ -118,39 +120,6 @@ export function AboutWrapper({}) {
           <div className="anime">
             <h2 className="work_heading mask">{text.main}</h2>
           </div>
-          {/* <a href={links.work} className="work__cto anime">
-            <div className="left">
-              <svg
-                width="21"
-                height="6"
-                viewBox="0 0 21 6"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.5 2V4H14.5V6L20.5 3L14.5 0V2H0.5Z"
-                  fill="var(--colorLight)"
-                />
-              </svg>
-            </div>
-            <div className="center font-bold">
-              view all work<span className="yellow__it"> .</span>
-            </div>
-            <div className="right">
-              <svg
-                width="21"
-                height="6"
-                viewBox="0 0 21 6"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.5 2V4H14.5V6L20.5 3L14.5 0V2H0.5Z"
-                  fill="var(--colorLight)"
-                />
-              </svg>
-            </div>
-          </a> */}
         </div>
         <div className="section3__video overflow-hidden rounded-3xl bg-black md:rounded-[3rem]">
           <video
