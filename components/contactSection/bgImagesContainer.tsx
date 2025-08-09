@@ -10,19 +10,19 @@ import { getRandRgb, getRandValues, shuffle } from "@/lib/utils";
 const bgImagesData = [
   {
     id: 1,
-    imgLink: "/svg_logo/after-effects-logo.svg",
+    imgLink: "/svg_logo/javascript-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 2,
-    imgLink: "/svg_logo/attributes-logo.svg",
+    imgLink: "/svg_logo/python-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 3,
-    imgLink: "/svg_logo/client-first-logo.svg",
+    imgLink: "/svg_logo/graphql-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
@@ -34,7 +34,7 @@ const bgImagesData = [
   },
   {
     id: 5,
-    imgLink: "/svg_logo/framer-logo.svg",
+    imgLink: "/svg_logo/node-js-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
@@ -46,7 +46,7 @@ const bgImagesData = [
   },
   {
     id: 7,
-    imgLink: "/svg_logo/mailchimp-logo.svg",
+    imgLink: "/svg_logo/docker-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
@@ -58,7 +58,7 @@ const bgImagesData = [
   },
   {
     id: 9,
-    imgLink: "/svg_logo/photoshop-logo.svg",
+    imgLink: "/svg_logo/github-color-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
@@ -70,13 +70,13 @@ const bgImagesData = [
   },
   {
     id: 11,
-    imgLink: "/svg_logo/spline-logo.svg",
+    imgLink: "/svg_logo/npm-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
   {
     id: 12,
-    imgLink: "/svg_logo/rive-logo.svg",
+    imgLink: "/svg_logo/redux-logo-svgrepo-com.svg",
     title: "",
     subtitle: "",
   },
@@ -86,12 +86,12 @@ const bgImagesData = [
     title: "",
     subtitle: "",
   },
-  {
-    id: 14,
-    imgLink: "/svg_logo/webflow-logo.svg",
-    title: "",
-    subtitle: "",
-  },
+  // {
+  //   id: 14,
+  //   imgLink: "/svg_logo/webflow-logo.svg",
+  //   title: "",
+  //   subtitle: "",
+  // },
 ];
 
 function getRandDistrubutedTop(index: number, targets: any[]) {
