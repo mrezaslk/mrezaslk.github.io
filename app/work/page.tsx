@@ -11,62 +11,62 @@ const projectsData = [
   {
     title: (
       <>
-        YieldStone <br /> Page
+        Antbuildz <br /> Platform
       </>
     ),
-    description: "Webflow Site",
-    link: "https://www.yieldstone.ai/",
+    description: "B2B Equipment Rental Platform",
+    link: "https://antbuildz.com/",
     imageLink: "/img/projects/1.avif",
   },
   {
     title: (
       <>
-        Simple Font <br /> Replacer
+        Igloovy <br /> Platform
       </>
     ),
-    description: "Figma Plugin",
-    link: "https://www.figma.com/community/plugin/1380643582596908985/simple-font-replacer",
+    description: "AI-powered adaptive learning platforms ",
+    link: "https://igloovy.com/",
     imageLink: "/img/projects/2.avif",
   },
   {
     title: (
       <>
-        Andy PFP <br /> Generator
+        Didex <br /> Platform
       </>
     ),
-    description: "Next.js Site",
-    link: "https://generator.andytoken.com/",
+    description: "cryptocurrency exchange",
+    link: "https://didex.com/",
     imageLink: "/img/projects/3.avif",
   },
   {
     title: (
       <>
-        PonkeSol <br /> Page
+        Gonbad Kabud <br /> Application
       </>
     ),
-    description: "Webflow Site",
-    link: "https://ponkecoin-ninetyeight.webflow.io/",
+    description: "Literacy platform",
+    link: "#",
     imageLink: "/img/projects/4.avif",
   },
 
   {
     title: (
       <>
-        AmanFX <br /> Portfolio
+        Meerkat <br /> Application
       </>
     ),
-    description: "Webflow Site",
-    link: "https://amanfx.webflow.io/",
+    description: "adaptive learning",
+    link: "#",
     imageLink: "/img/projects/5.avif",
   },
   {
     title: (
       <>
-        Therapist <br /> Website
+        Yobiti <br /> Platform
       </>
     ),
-    description: "UI Design",
-    link: "https://www.figma.com/proto/Tzz9bwrjHtSza87b1l3D0i/Inner-Strength-UI-Design?type=design&node-id=37-10&t=pq2KDLjYbMU4LFgA-1&scaling=min-zoom&page-id=0%3A1&mode=design",
+    description: "Website builder",
+    link: "#",
     imageLink: "/img/projects/6.avif",
   },
 ];
