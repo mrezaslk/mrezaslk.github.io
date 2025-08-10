@@ -31,16 +31,6 @@ const projectsData = [
   {
     title: (
       <>
-        Didex <br /> Platform
-      </>
-    ),
-    description: "cryptocurrency exchange",
-    link: "https://didex.com/",
-    imageLink: "/img/projects/3.avif",
-  },
-  {
-    title: (
-      <>
         Gonbad Kabud <br /> Application
       </>
     ),
@@ -62,12 +52,32 @@ const projectsData = [
   {
     title: (
       <>
+        Didex <br /> Platform
+      </>
+    ),
+    description: "cryptocurrency exchange",
+    link: "https://didex.com/",
+    imageLink: "/img/projects/3.avif",
+  },
+  {
+    title: (
+      <>
         Yobiti <br /> Platform
       </>
     ),
     description: "Website builder",
     link: "#",
     imageLink: "/img/projects/6.avif",
+  },
+  {
+    title: (
+      <>
+        Npm Package <br /> Calendar
+      </>
+    ),
+    description: "Android wheel picker ",
+    link: "https://www.npmjs.com/package/react-native-android-persian-wheel-picker",
+    imageLink: "/img/projects/7.avif",
   },
 ];
 //test
