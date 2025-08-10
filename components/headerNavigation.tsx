@@ -77,19 +77,22 @@ export function HeaderNavigation() {
       name: "Home",
       href: links.home,
     },
-
     {
       name: "Work",
       href: links.work,
     },
     {
-      name: "Github",
-      href: links.github,
+      name: "Resume",
+      href: links.resume,
     },
-    {
-      name: "Linkedin",
-      href: links.linkedin,
-    },
+    // {
+    //   name: "Github",
+    //   href: links.github,
+    // },
+    // {
+    //   name: "Linkedin",
+    //   href: links.linkedin,
+    // },
   ];
   return (
     <>
@@ -115,7 +118,13 @@ export function HeaderNavigation() {
                     chars: "-xx",
                   }}
                   href={data.href}
-                  target={data.name === "Linkedin" || data.name === "Github" ? "_blank" : "_self"}
+                  target={
+                    data.name === "Linkedin" || data.name === "Github"
+                      ? "_blank"
+                      : "_self"
+                  }
+                  download={data.name === "Resume" ? true : false}
+                  rel="noopener noreferrer"
                 >
                   <span className="scrambleText">{data.name}</span>
                 </Magentic>

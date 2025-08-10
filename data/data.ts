@@ -4,7 +4,7 @@ export const links = {
   work: "/work",
   contact: "https://t.me/rezaslk",
   email: "mailto:mrezadev1996@gmail.com",
-  resume: "/resume",
+  resume: "/resume/MuhammadSalekFrontend.pdf",
   sourceCode: "https://github.com/mrezaslk",
   github: "https://github.com/mrezaslk",
   linkedin: "https://www.linkedin.com/in/muhammad-salek-0824751a4/",
