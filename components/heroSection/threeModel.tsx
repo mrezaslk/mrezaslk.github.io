@@ -202,7 +202,7 @@ export function ThreeModel({
   }, [sectionRef, onLoaded]);
 
   return (
-    <div className="pointer-events-none absolute -top-28 left-[34.4%] z-[9999]">
+    <div className="pointer-events-none absolute z-[9999] md:-top-28 md:left-[34.4%] top-10 left-[20%]">
       <div ref={mountRef} className="relative h-full w-full" />
     </div>
   );
